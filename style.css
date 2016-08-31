@@ -1,0 +1,21 @@
+select, input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 200px;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+}
+
+#msg {
+  margin: 10px 0;
+  color: #444;
+}
+
+select.invalid {
+  color: #c00;
+}
+
+select.valid {
+  color: #0c0;
+}
